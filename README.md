@@ -1,11 +1,12 @@
 # Learning Microsoft Defender for Cloud
 
-> Previously known as Microsoft Security Center
+> Previously known as Microsoft Security Center or Azure Security Portal
 
 ## What is MSFT Defender for Cloud
 
 - cloud-native application protection platform (CNAPP)
 - security measures and practices versus cyber threats / vulnerabilities
+- multi-cloud solution (Azure, AWS, GCP)
 
 ## Benefits
 

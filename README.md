@@ -17,6 +17,13 @@
 
 ### Overview
 
+- Provides unified view into security posture
+- Includes independent cloud secureity pillars:
+  - Security posture
+  - Regulatory compliance
+  - Workload protections
+  - Inventory
+
 #### Security posture
 
 - An assessment of environment's overall security posture
@@ -87,3 +94,8 @@
 - cross-cloud and on-premises scenarios
 - *Enhanced security* feature available
 - CVE = Common Vulnerabilities and Exposure
+
+## Beneficial Certifications
+
+- AZ-500
+- SC-900

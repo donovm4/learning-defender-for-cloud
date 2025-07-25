@@ -5,15 +5,23 @@
 ## What is MSFT Defender for Cloud
 
 - cloud-native application protection platform (CNAPP)
-- security measures and practices versus cyber threats / vulnerabilities
-- multi-cloud solution (Azure, AWS, GCP)
+- security posture management, measures and practices versus cyber threats / vulnerabilities
+- multi-cloud solution for workload protection (Azure, AWS, GCP)
 - shared responsibility model
 
 ### Benefits
 
 - As a development security operations (DevSecOps) solution, unifies security management at the code level across multicloud and multi-pipeline environments
-- As a cloud security posture management (CSPM) solution, identifies actions to prevent breaches
-- As a cloud workload protection platform (CWPP) solution, protection for servers, containers, storage, databases, and other workloads
+- As a cloud security posture management (CSPM) solution...
+  - provides VISIBILITY and GUIDANCE
+  - assesses resources, subscriptions, organizations
+  - identifies actions to prevent breaches
+  - provides single score based on aggregating findings
+  
+- As a cloud workload protection platform (CWP or CWPP) solution...
+  - protection for servers, containers, storage, databases, and other workloads
+    > protection provideed through enhanced security feature plans
+  - powered by Micosoft Threat Intelligence
 
 ### Overview
 
@@ -28,8 +36,14 @@
 
 - An assessment of environment's overall security posture
 - Secure score
+  - a signle score in reference to current security posture
+  - the higher the score, the lower the risk level
 - Recommendations provided
-- Governance - view and assign ownership of recommendations to drive remediation
+  - customized and prioritized tasks to immprove security posture
+  - remediation steps included
+  > `Fix` button may be available for automated implementations
+- Governance 
+  - view and assign ownership of recommendations to drive remediation
 
 
 #### Regulatory compliance
@@ -49,7 +63,7 @@
 - Explore security coverage plans:
   - Defender CSPM
   - Servers
-  - App service
+  - App Service
   - SQL databases
   - SQL servers on machines
   - open-source relational databases
@@ -57,8 +71,9 @@
   - Storage
   - Containers
   - AI Services
-  - Key vault
-  - Resource manager
+  - Key Vault
+  - Resource mMnager
+  - DNS
 
 ### Recommendations
 
@@ -77,9 +92,16 @@
   - preventing future attacks as well
 - Automated flows with logic apps
 - Email notifications
-> Sentinel and other Defender products like *Defender for Endpoint* logs / alerts can fully integrate here as well
+> Sentinel, other Defender products like _Defender for Endpoint_, and third-party SIEM tool logs / alerts can fully integrate here as well
 
 ### Workload protections
+
+- Continuosly Assess
+  - understand your current security posture
+- Secure
+  - harden the connected services / resources
+- Defend
+  - detect _and_ resolve threats to services / resources
 
 ### Cloud Security explorer
 
@@ -92,10 +114,10 @@
 - integrates with Azure Policy
 - leverages Azure Security Benchmark
 - cross-cloud and on-premises scenarios
-- *Enhanced security* feature available
+- _Enhanced security_ feature available
 - CVE = Common Vulnerabilities and Exposure
 
 ## Beneficial Certifications
 
-- AZ-500
 - SC-900
+- AZ-500
